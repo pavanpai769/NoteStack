@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: NoteStack
+
+  data:
+    mongodb:
+      uri: mongodb+srv://<username>:<password>@<your-cluster>.mongodb.net/?retryWrites=true&w=majority
+      database: notesDb
+      auto-index-creation: true
+
+  main:
+    allow-circular-references: true
